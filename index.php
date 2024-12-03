@@ -1,7 +1,6 @@
 <?php
 
 include_once('templates/topo.php'); 
-include_once('templates/menu.php');
 
 
 if (isset($_GET['page'])) {
@@ -11,7 +10,7 @@ if (isset($_GET['page'])) {
 
 } else {
 
-    include_once('conteudo.php');
+    include_once('inserir.php');
 }
 
 include_once('templates/rodape.php'); 
@@ -25,6 +24,14 @@ include_once('templates/rodape.php');
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Sistema de tarefas</title>
    <style>
+
+    form {
+
+      color: #black;
+
+      text-align: center;
+
+   }
 
    footer {
 
@@ -58,7 +65,7 @@ include_once('templates/rodape.php');
 
    h1 {
 
-      color: #ffffff;
+      color: #00000;
 
       text-align: center;
 
