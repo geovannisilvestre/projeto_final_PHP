@@ -1,4 +1,3 @@
 <footer>
-
-<h3><p>Rodapé - ©️ 2024</p></h3>
+<h2>Rodapé - ©️ 2024</h2>
 </footer>

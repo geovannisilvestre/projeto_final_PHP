@@ -1,5 +1,4 @@
 <?php
-include_once('connector.php');
 
 include_once('templates/topo.php'); 
 include_once('templates/menu.php');
@@ -26,74 +25,61 @@ include_once('templates/rodape.php');
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Sistema de tarefas</title>
    <style>
-   
-   
-   p {
+
+   footer {
+
+      background-color: #008B8B; //margem do rodapé
+
+      color: #ffffff;
+
+      padding: 15px;
+
+      text-align: center;
+
+      position: fixed;
+
+      bottom: 0;
+
+      width: 100%;
+
+   }
+
+   header {
+
+      background-color: #008B8B; //margem do header (topo)//
+
+      color: #E0FFFF;
+
+      padding: 20px;
+
+      text-align: center;
+
+   }
+
+   h1 {
+
       color: #ffffff;
 
       text-align: center;
 
-}
+   }
 
-   footer {
+   body {
 
-background-color: #000000;
+      font-family: Arial, sans-serif;
 
-color: #ffffff;
+      margin: 0;
 
-padding: 10px;
+      padding: 0;
 
-text-align: center;
+      background-color: #adadad; //meio do conteúdo principal
 
-position: fixed;
+   }
 
-bottom: 0;
+</style>
 
-width: 100%;
-
-}
-header {
-
-background-color: #000000;
-
-color: #fff;
-
-padding: 20px;
-
-text-align: center;
-
-}
-
-h1 {
-
-color: #ffffff;
-
-text-align: center;
-
-}
-
-body {
-
-font-family: Arial, sans-serif;
-
-margin: 0;
-
-padding: 0;
-
-background-color: #adadad;
-
-}
-
-
-   </style>
 </head>
 <body>
 
-
-<footer>
-
-<h3><p>Rodapé - ©️ 2024</p></h3>
-
-</footer>
 </body>
 </html>
